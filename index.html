@@ -20,30 +20,30 @@
       <button class="navbar-toggler navbar-toggler-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">Dashboard</a>
+      <a class="navbar-brand" href="#">GitTips</a>
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Головна <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Settings</a>
+            <a class="nav-link" href="#">Новини</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Profile</a>
+            <a class="nav-link" href="#">Ресурси</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Help</a>
+            <a class="nav-link" href="#">Про проект</a>
           </li>
         </ul>
         <form class="form-inline mt-2 mt-md-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <input class="form-control mr-sm-2" type="text" placeholder="введіть щось тут">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Пошук</button>
         </form>
       </div>
     </nav>
-
+ <!-- Left menu -->   
     <div class="container-fluid">
       <div class="row">
         <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
@@ -52,13 +52,19 @@
               <a class="nav-link active" href="#">Overview <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Reports</a>
+              <a class="nav-link " href="#StartGIT">Start GIT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Analytics</a>
+              <a class="nav-link" href="#Addfirstfiles">Add first files</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Export</a>
+              <a class="nav-link" href="#">Work with GIT logs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Recovery and return in GIT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
             </li>
           </ul>
 
@@ -89,10 +95,9 @@
             </li>
           </ul>
         </nav>
-
+<!-- Dashboard in page --> 
         <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
           <h1>Dashboard</h1>
-
           <section class="row text-center placeholders">
             <div class="col-6 col-sm-3 placeholder">
               <img src="data:image/gif;base64,R0lGODlhAQABAIABAAJ12AAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
@@ -114,78 +119,88 @@
               <h4>Label</h4>
               <span class="text-muted">Something else</span>
             </div>
-          </section>
-
-          <h2>Section title</h2>
-          <div class="container">
+            </section>
+<!-- Section tips title --> 
+<a name="StartGIT"></a>
+          <h2>Git is easy :)</h2>
 <h2>Start GIT</h2>
+          <div class="container">
 <p>
-  <b style="color: #4d0099;">git init</b> - ініціалізує(підключає) систему контролю версій в обраній папці;
+  <b class="codeColor">git init</b> - ініціалізує(підключає) систему контролю версій в обраній папці;
 </p>
 <p>
-  <b style="color: #4d0099;">git config --global user.name "my name"</b> - вказує глобальні налаштування імені власника(для всіх репозиторіїв на пк по замовчуванню);
+  <b class="codeColor">git config --global user.name "my name"</b> - вказує глобальні налаштування імені власника(для всіх репозиторіїв на пк по замовчуванню);
 </p>
 <p>
-  <b style="color: #4d0099;">git config --global user.email "email@email.com"</b> - вказує глобальні налаштування поштової адреси власника (для всіх репозиторіїв на пк по замовчуванню);
+  <b class="codeColor">git config --global user.email "email@email.com"</b> - вказує глобальні налаштування поштової адреси власника (для всіх репозиторіїв на пк по замовчуванню);
 </p>
 <p>
-  <b style="color: #4d0099;">git config user.name "my name"</b> - вказує локальні для конкретного репозиторію налаштування імені власника (необхідно виконати в папці репозиторію);
+  <b class="codeColor">git config user.name "my name"</b> - вказує локальні для конкретного репозиторію налаштування імені власника (необхідно виконати в папці репозиторію);
 </p>
 <p>
-  <b style="color: #4d0099;">git config user.email "email@email.com"</b> - вказує локальні для конкретного репозиторію налаштування поштової адреси (необхідно виконати в папці репозиторію);
+  <b class="codeColor">git config user.email "email@email.com"</b> - вказує локальні для конкретного репозиторію налаштування поштової адреси (необхідно виконати в папці репозиторію);
 </p>
 <p>
-  <b style="color: #4d0099;">git status</b> - виводить в консоль інформацію по статусу, в якому перебувають файли у папці;
+  <b class="codeColor">git status</b> - виводить в консоль інформацію по статусу, в якому перебувають файли у папці;
 </p>
-  <h2>First files</h2>
+</div>
+<a name="Addfirstfiles"></a>
+  <h2>Add first files</h2>
+  <div class="container">
 <p>
-  <b style="color: #4d0099;">git add filename.html</b> - додає до індексування (відстеження змін) файл.filename.html-імя вашого файлу;
+  <b class="codeColor">git add filename.html</b> - додає до індексування (відстеження змін) файл.filename.html-імя вашого файлу;
 </p>
 <p>
-  <b style="color: #4d0099;">git add .</b> - додає до індексування(відстеження змін) всі файли що;
+  <b class="codeColor">git add .</b> - додає до індексування(відстеження змін) всі файли що;
 </p>
 <p>
-  <b style="color: #4d0099;">git commit -m "your text info"</b> - виконує commit файлів на пк і додає текст підказку/пояснення (text info) про те що коммітиться;
+  <b class="codeColor">git commit -m "your text info"</b> - виконує commit файлів на пк і додає текст підказку/пояснення (text info) про те що коммітиться;
 </p>
+</div>
 <h2>Work with GIT logs</h2>
+<div class="container">
 <p>
-  <b style="color: #4d0099;">git log</b> - показує історію коммітів.Щоб вийти із історії необхідно натиснути CTRL+z; 
+  <b class="codeColor">git log</b> - показує історію коммітів.Щоб вийти із історії необхідно натиснути CTRL+z; 
 </p>
 <p>
-  <b style="color: #4d0099;">git log -- pretty=online</b> - виводить в одну строку список комітів;
+  <b class="codeColor">git log -- pretty=online</b> - виводить в одну строку список комітів;
 </p>
 <p>
-  <b style="color: #4d0099;">git log -- pretty=online --max-count=3</b> - показує log (історію) останніх троьх коммітів.Щоб вийти із історії необхідно натиснути CTRL+z; 
+  <b class="codeColor">git log -- pretty=online --max-count=3</b> - показує log (історію) останніх троьх коммітів.Щоб вийти із історії необхідно натиснути CTRL+z; 
 </p>
 <p>
-  <b style="color: #4d0099;">git log -- pretty=online --all</b> - показує log (історію) всіх коммітів.Щоб вийти із історії необхідно натиснути CTRL+z; 
+  <b class="codeColor">git log -- pretty=online --all</b> - показує log (історію) всіх коммітів.Щоб вийти із історії необхідно натиснути CTRL+z; 
 </p>
 <p>
-  <b style="color: #4d0099;">git log -- pretty=online --author="name"</b> - показує log (історію) всіх коммітів по конкретному імені автора.Щоб вийти із історії необхідно натиснути CTRL+z; 
+  <b class="codeColor">git log -- pretty=online --author="name"</b> - показує log (історію) всіх коммітів по конкретному імені автора.Щоб вийти із історії необхідно натиснути CTRL+z; 
 </p>
 <p>
-  <b style="color: #4d0099;">git log -- pretty=format:"%h - %s : %ad [ %an ]" --date=short</b> - виведе інфу із коротким hesh по комітах,коментами,датою та автором; 
+  <b class="codeColor">git log -- pretty=format:"%h - %s : %ad [ %an ]" --date=short</b> - виведе інфу із коротким hesh по комітах,коментами,датою та автором; 
 </p>
+</div>
   <h2>Recovery and return in GIT</h2>
+<div class="container">
 <p>
-  <b style="color: #4d0099;">git checkout heshNumber</b> - перекине нас на коміт якому відповідає номер хеша (heshnumber).Номер хеша можна взнати чезе git log,така команда використовується якщо треба вернутись на якийсь попередній коміт при дебагінгу коду тощо; 
+  <b class="codeColor">git checkout heshNumber</b> - перекине нас на коміт якому відповідає номер хеша (heshnumber).Номер хеша можна взнати чезе git log,така команда використовується якщо треба вернутись на якийсь попередній коміт при дебагінгу коду тощо; 
 </p>
 <p>
 <p>
-  <b style="color: #4d0099;">git checkout index.html</b> - даною командою ми вертаємо файл index.html до стану в якому він був у попередньому комміті; 
+  <b class="codeColor">git checkout index.html</b> - даною командою ми вертаємо файл index.html до стану в якому він був у попередньому комміті; 
 </p>
 <p>
 <p>
-  <b style="color: #4d0099;">git reset</b> - команда яка вертає стан файлів,гілок тощо до того стану який ми хочемо ; 
+  <b class="codeColor">git reset</b> - команда яка вертає стан файлів,гілок тощо до того стану який ми хочемо ; 
 </p>
 <p>
 <p>
-  <b style="color: #4d0099;">git reset HEAD text.txt</b> - команда яка вертає стан index.txt до попереднього стану,який у нього був перед git add; 
+  <b class="codeColor">git reset HEAD text.txt</b> - команда яка вертає стан index.txt до попереднього стану,який у нього був перед git add; 
 </p>
 <p>
 <p>
-  <b style="color: #4d0099;">git reset heshNumber text.txt</b> - команда яка вертає стан файлу index.txt до того стану який він мав у попередньому коміті; 
+  <b class="codeColor">git reset heshNumber text.txt</b> - команда яка вертає стан файлу index.txt до того стану який він мав у попередньому коміті; 
 </p>
+</div>
+<!-- End of tips-->
           </div>
         </main>
       </div>
