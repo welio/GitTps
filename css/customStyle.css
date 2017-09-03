@@ -76,3 +76,10 @@ h1 {
 {
   margin: 25px 50px 25px 30px;
 }
+
+.pageTitle
+{
+  font: bold;
+  color: #F05033;
+  text-align: center;
+}
