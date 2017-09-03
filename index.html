@@ -17,7 +17,8 @@
 
   <body>
     <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
-      <button class="navbar-toggler navbar-toggler-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right hidden-lg-up" type="button" data-toggle="collapse"
+              data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="#">GitTips</a>
@@ -100,30 +101,48 @@
           <h1>Dashboard</h1>
           <section class="row text-center placeholders">
             <div class="col-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIABAAJ12AAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIABAAJ12AAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200"
+                   class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
               <h4>Label</h4>
               <div class="text-muted">Something else</div>
             </div>
             <div class="col-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIABAADcgwAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIABAADcgwAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200"
+                   class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
               <h4>Label</h4>
               <span class="text-muted">Something else</span>
             </div>
             <div class="col-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIABAAJ12AAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIABAAJ12AAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200"
+                   class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
               <h4>Label</h4>
               <span class="text-muted">Something else</span>
             </div>
             <div class="col-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIABAADcgwAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIABAADcgwAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200"
+                   class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
               <h4>Label</h4>
               <span class="text-muted">Something else</span>
             </div>
             </section>
 <!-- Section tips title --> 
         <a name="StartGIT"></a>
-            <h2>Git is easy :)</h2>
-  <h2>Start GIT</h2>
+            <h2 class="headerInPage">Git is easy :)</h2>
+            <div class="container">
+                <p>Git — розподілена система керування версіями файлів та спільної роботи.Git сприймає свої дані більш
+                    як набір знімків мініатюрної файлової системи.</p>
+                <p>Кожен раз, коли ви робите комміт, тобто зберігаєте
+                    стан вашого проекту в Git, він запам’ятовує як виглядають всі ваші файли в той момент і зберігає
+                    посилання на цей знімок.</p>
+                <p>Більшість операцій у Git потребують лише локальних файлів та ресурсів для здійснення операцій – немає
+                    необхідності в інформації з інших комп’ютерів вашої мережі.</p>
+                <p>Будь-що в Git, перед збереженням, отримує контрольну суму, за якою потім і можна на нього посилатися.
+                    Таким чином, неможливо змінити файл чи директорію так, щоб Git про це не дізнався. Цей функціонал
+                    вбудовано в систему на найнижчих рівнях і є невід’ємною частиною її філософії. Ви не можете втратити
+                    інформацію при передачі чи отримати пошкоджений файл без відома Git.Фактично, Git зберігає все не за
+                    назвою файлу, а саме за значенням хешу його змісту.</p>
+            </div>
+  <h2 class="headerInPage">Start GIT</h2>
     <div class="container">
       <div class="card">
           <div class="card-block">
@@ -132,22 +151,26 @@
       </div>
     <div class="card">
           <div class="card-block">
-        <b class="codeColor">git config --global user.name "my name"</b> - вказує глобальні налаштування імені власника(для всіх репозиторіїв на пк по замовчуванню);
+        <b class="codeColor">git config --global user.name "my name"</b> - вказує глобальні налаштування імені власника
+              (для всіх репозиторіїв на пк по замовчуванню);
           </div>
     </div>
   <div class="card">
     <div class="card-block">
-    <b class="codeColor">git config --global user.email "email@email.com"</b> - вказує глобальні налаштування поштової адреси власника (для всіх репозиторіїв на пк по замовчуванню);
+    <b class="codeColor">git config --global user.email "email@email.com"</b> - вказує глобальні налаштування поштової
+        адреси власника (для всіх репозиторіїв на пк по замовчуванню);
   </div>
   </div>
   <div class="card">
     <div class="card-block">
-    <b class="codeColor">git config user.name "my name"</b> - вказує локальні для конкретного репозиторію налаштування імені власника (необхідно виконати в папці репозиторію);
+    <b class="codeColor">git config user.name "my name"</b> - вказує локальні для конкретного репозиторію налаштування
+        імені власника (необхідно виконати в папці репозиторію);
   </div>
   </div>
   <div class="card">
     <div class="card-block">
-    <b class="codeColor">git config user.email "email@email.com"</b> - вказує локальні для конкретного репозиторію налаштування поштової адреси (необхідно виконати в папці репозиторію);
+    <b class="codeColor">git config user.email "email@email.com"</b> - вказує локальні для конкретного репозиторію
+        налаштування поштової адреси (необхідно виконати в папці репозиторію);
   </div>
   </div>
   <div class="card">
@@ -157,11 +180,12 @@
   </div>
   </div>
         <a name="Addfirstfiles"></a>
-    <h2>Add first files</h2>
+    <h2 class="headerInPage">Add first files</h2>
   <div class="container">
         <div class="card">
           <div class="card-block">
-            <b class="codeColor">git add filename.html</b> - додає до індексування (відстеження змін) файл.filename.html-імя вашого файлу;
+            <b class="codeColor">git add filename.html</b> - додає до індексування (відстеження змін) файл.
+              filename.html-імя вашого файлу;
           </div>
         </div>
       <div class="card">
@@ -171,12 +195,13 @@
       </div>
       <div class="card">
           <div class="card-block">
-            <b class="codeColor">git commit -m "your text info"</b> - виконує commit файлів на пк і додає текст підказку/пояснення (text info) про те що коммітиться;
+            <b class="codeColor">git commit -m "your text info"</b> - виконує commit файлів на пк і додає текст
+              підказку/пояснення (text info) про те що коммітиться;
           </div>
         </div>
   </div>
 
-  <h2>Work with GIT logs</h2>
+  <h2 class="headerInPage">Work with GIT logs</h2>
 
   <div class="container">
         <div class="card">
@@ -191,35 +216,42 @@
         </div>  
         <div class="card">
           <div class="card-block">
-    <b class="codeColor">git log -- pretty=online --max-count=3</b> - показує log (історію) останніх троьх коммітів.Щоб вийти із історії необхідно натиснути CTRL+z; 
+    <b class="codeColor">git log -- pretty=online --max-count=3</b> - показує log (історію) останніх троьх коммітів.Щоб
+              вийти із історії необхідно натиснути CTRL+z;
           </div>
         </div>
         <div class="card">
           <div class="card-block">
-    <b class="codeColor">git log -- pretty=online --all</b> - показує log (історію) всіх коммітів.Щоб вийти із історії необхідно натиснути CTRL+z; 
+    <b class="codeColor">git log -- pretty=online --all</b> - показує log (історію) всіх коммітів.Щоб вийти із історії
+              необхідно натиснути CTRL+z;
           </div>
         </div>
         <div class="card">
           <div class="card-block">
-    <b class="codeColor">git log -- pretty=online --author="name"</b> - показує log (історію) всіх коммітів по конкретному імені автора.Щоб вийти із історії необхідно натиснути CTRL+z; 
+    <b class="codeColor">git log -- pretty=online --author="name"</b> - показує log (історію) всіх коммітів по
+              конкретному імені автора.Щоб вийти із історії необхідно натиснути CTRL+z;
           </div>
         </div>
         <div class="card">
           <div class="card-block">
-    <b class="codeColor">git log -- pretty=format:"%h - %s : %ad [ %an ]" --date=short</b> - виведе інфу із коротким hesh по комітах,коментами,датою та автором; 
+    <b class="codeColor">git log -- pretty=format:"%h - %s : %ad [ %an ]" --date=short</b> - виведе інфу із коротким
+              hesh по комітах,коментами,датою та автором;
           </div>
         </div>
   </div>
-    <h2>Recovery and return in GIT</h2>
+    <h2 class="headerInPage">Recovery and return in GIT</h2>
   <div class="container">
         <div class="card">
           <div class="card-block">
-    <b class="codeColor">git checkout heshNumber</b> - перекине нас на коміт якому відповідає номер хеша (heshnumber).Номер хеша можна взнати чезе git log,така команда використовується якщо треба вернутись на якийсь попередній коміт при дебагінгу коду тощо; 
+    <b class="codeColor">git checkout heshNumber</b> - перекине нас на коміт якому відповідає номер хеша (heshnumber).
+              Номер хеша можна взнати чезе git log,така команда використовується якщо треба вернутись на якийсь попередній
+              коміт при дебагінгу коду тощо;
           </div>
         </div>
         <div class="card">
           <div class="card-block">
-    <b class="codeColor">git checkout index.html</b> - даною командою ми вертаємо файл index.html до стану в якому він був у попередньому комміті; 
+    <b class="codeColor">git checkout index.html</b> - даною командою ми вертаємо файл index.html до стану в якому він
+              був у попередньому комміті;
           </div>
         </div>
         <div class="card">
@@ -229,14 +261,24 @@
         </div>
         <div class="card">
           <div class="card-block">
-    <b class="codeColor">git reset HEAD text.txt</b> - команда яка вертає стан index.txt до попереднього стану,який у нього був перед git add;
+    <b class="codeColor">git reset HEAD text.txt</b> - команда яка вертає стан index.txt до попереднього стану,який у
+              нього був перед git add;
           </div>
         </div>  
         <div class="card">
           <div class="card-block">
-    <b class="codeColor">git reset heshNumber text.txt</b> - команда яка вертає стан файлу index.txt до того стану який він мав у попередньому коміті; 
+    <b class="codeColor">git reset heshNumber text.txt</b> - команда яка вертає стан файлу index.txt до того стану який
+              він мав у попередньому коміті;
           </div>
         </div>
+
+      <div class="card">
+          <div class="card-block">
+              <b class="codeColor">git revert HEAD --no-edit</b> - вертає (попередньо видаливши наш останній коміт) нас на
+              попередній комміт.Замість HEAD можна писати хеш якогось комміту.Видалений комміт залишається в логах;
+          </div>
+      </div>
+
   </div>
   <!-- End of tips-->
             </div>
@@ -247,9 +289,13 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+            integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous">
+            </script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+            integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous">
+            </script>
     <script src="https://v4-alpha.getbootstrap.com/dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
