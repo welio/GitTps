@@ -126,162 +126,187 @@
             </div>
             </section>
 <!-- Section tips title --> 
-        <a name="StartGIT"></a>
-            <h2 class="headerInPage">Git is easy :)</h2>
-            <div class="container">
-                <p>Git — розподілена система керування версіями файлів та спільної роботи.Git сприймає свої дані більш
+<a name="StartGIT"></a>
+    <h2 class="headerInPage">Git is easy :)</h2>
+        <div class="container">
+            <p>Git — розподілена система керування версіями файлів та спільної роботи.Git сприймає свої дані більш
                     як набір знімків мініатюрної файлової системи.</p>
-                <p>Кожен раз, коли ви робите комміт, тобто зберігаєте
+            <p>Кожен раз, коли ви робите комміт, тобто зберігаєте
                     стан вашого проекту в Git, він запам’ятовує як виглядають всі ваші файли в той момент і зберігає
                     посилання на цей знімок.</p>
-                <p>Більшість операцій у Git потребують лише локальних файлів та ресурсів для здійснення операцій – немає
+            <p>Більшість операцій у Git потребують лише локальних файлів та ресурсів для здійснення операцій – немає
                     необхідності в інформації з інших комп’ютерів вашої мережі.</p>
-                <p>Будь-що в Git, перед збереженням, отримує контрольну суму, за якою потім і можна на нього посилатися.
+            <p>Будь-що в Git, перед збереженням, отримує контрольну суму, за якою потім і можна на нього посилатися.
                     Таким чином, неможливо змінити файл чи директорію так, щоб Git про це не дізнався. Цей функціонал
                     вбудовано в систему на найнижчих рівнях і є невід’ємною частиною її філософії. Ви не можете втратити
                     інформацію при передачі чи отримати пошкоджений файл без відома Git.Фактично, Git зберігає все не за
                     назвою файлу, а саме за значенням хешу його змісту.</p>
+        </div>
+<!--Start for Git tips-->
+<a name="Addfirstfiles"></a>
+    <h2 class="headerInPage">Start GIT</h2>
+        <div class="container">
+
+            <div class="card">
+                <div class="card-block">
+                    <b class="codeColor">git init</b> - ініціалізує(підключає) систему контролю версій в обраній папці;
+                </div>
             </div>
-  <h2 class="headerInPage">Start GIT</h2>
-    <div class="container">
-      <div class="card">
-          <div class="card-block">
-        <b class="codeColor">git init</b> - ініціалізує(підключає) систему контролю версій в обраній папці;
-          </div>
-      </div>
-    <div class="card">
-          <div class="card-block">
-        <b class="codeColor">git config --global user.name "my name"</b> - вказує глобальні налаштування імені власника
-              (для всіх репозиторіїв на пк по замовчуванню);
-          </div>
-    </div>
-  <div class="card">
-    <div class="card-block">
-    <b class="codeColor">git config --global user.email "email@email.com"</b> - вказує глобальні налаштування поштової
-        адреси власника (для всіх репозиторіїв на пк по замовчуванню);
-  </div>
-  </div>
-  <div class="card">
-    <div class="card-block">
-    <b class="codeColor">git config user.name "my name"</b> - вказує локальні для конкретного репозиторію налаштування
-        імені власника (необхідно виконати в папці репозиторію);
-  </div>
-  </div>
-  <div class="card">
-    <div class="card-block">
-    <b class="codeColor">git config user.email "email@email.com"</b> - вказує локальні для конкретного репозиторію
-        налаштування поштової адреси (необхідно виконати в папці репозиторію);
-  </div>
-  </div>
-  <div class="card">
-    <div class="card-block">
-    <b class="codeColor">git status</b> - виводить в консоль інформацію по статусу, в якому перебувають файли у папці;
-  </div>
-  </div>
-  </div>
-        <a name="Addfirstfiles"></a>
+
+            <div class="card">
+                <div class="card-block">
+                    <b class="codeColor">git config --global user.name "my name"</b> - вказує глобальні налаштування
+                    імені власника для всіх репозиторіїв на пк по замовчуванню);
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-block">
+                    <b class="codeColor">git config --global user.email "email@email.com"</b> - вказує глобальні
+                    налаштування поштової адреси власника (для всіх репозиторіїв на пк по замовчуванню);
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-block">
+                    <b class="codeColor">git config user.name "my name"</b> - вказує локальні для конкретного репозиторію
+                    налаштування імені власника (необхідно виконати в папці репозиторію);
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-block">
+                    <b class="codeColor">git config user.email "email@email.com"</b> - вказує локальні для конкретного
+                    репозиторію налаштування поштової адреси (необхідно виконати в папці репозиторію);
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-block">
+                    <b class="codeColor">git status</b> - виводить в консоль інформацію по статусу, в якому перебувають
+                    файли у папці;
+                </div>
+            </div>
+
+        </div>
+<a name="Addfirstfiles"></a>
     <h2 class="headerInPage">Add first files</h2>
-  <div class="container">
-        <div class="card">
-          <div class="card-block">
-            <b class="codeColor">git add filename.html</b> - додає до індексування (відстеження змін) файл.
-              filename.html-імя вашого файлу;
-          </div>
-        </div>
-      <div class="card">
-          <div class="card-block">      
-            <b class="codeColor">git add .</b> - додає до індексування(відстеження змін) всі файли що;
-          </div>
-      </div>
-      <div class="card">
-          <div class="card-block">
-            <b class="codeColor">git commit -m "your text info"</b> - виконує commit файлів на пк і додає текст
-              підказку/пояснення (text info) про те що коммітиться;
-          </div>
-        </div>
-  </div>
-            <a name="WorkWithGitLogs"></a>
-  <h2 class="headerInPage">Work with GIT logs</h2>
+        <div class="container">
 
-  <div class="container">
-        <div class="card">
-          <div class="card-block">
-    <b class="codeColor">git log</b> - показує історію коммітів.Щоб вийти із історії необхідно натиснути CTRL+z; 
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-block">
-    <b class="codeColor">git log -- pretty=online</b> - виводить в одну строку список комітів;
-          </div>
-        </div>  
-        <div class="card">
-          <div class="card-block">
-    <b class="codeColor">git log -- pretty=online --max-count=3</b> - показує log (історію) останніх троьх коммітів.Щоб
-              вийти із історії необхідно натиснути CTRL+z;
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-block">
-    <b class="codeColor">git log -- pretty=online --all</b> - показує log (історію) всіх коммітів.Щоб вийти із історії
-              необхідно натиснути CTRL+z;
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-block">
-    <b class="codeColor">git log -- pretty=online --author="name"</b> - показує log (історію) всіх коммітів по
-              конкретному імені автора.Щоб вийти із історії необхідно натиснути CTRL+z;
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-block">
-    <b class="codeColor">git log -- pretty=format:"%h - %s : %ad [ %an ]" --date=short</b> - виведе інфу із коротким
-              hesh по комітах,коментами,датою та автором;
-          </div>
-        </div>
-  </div>
-            <a name="RecoveryAndReturnInGIT"></a>
-    <h2 class="headerInPage">Recovery and return in GIT</h2>
-  <div class="container">
-        <div class="card">
-          <div class="card-block">
-    <b class="codeColor">git checkout heshNumber</b> - перекине нас на коміт якому відповідає номер хеша (heshnumber).
-              Номер хеша можна взнати чезе git log,така команда використовується якщо треба вернутись на якийсь попередній
-              коміт при дебагінгу коду тощо;
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-block">
-    <b class="codeColor">git checkout index.html</b> - даною командою ми вертаємо файл index.html до стану в якому він
-              був у попередньому комміті;
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-block">
-    <b class="codeColor">git reset</b> - команда яка вертає стан файлів,гілок тощо до того стану який ми хочемо ; 
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-block">
-    <b class="codeColor">git reset HEAD text.txt</b> - команда яка вертає стан index.txt до попереднього стану,який у
-              нього був перед git add;
-          </div>
-        </div>  
-        <div class="card">
-          <div class="card-block">
-    <b class="codeColor">git reset heshNumber text.txt</b> - команда яка вертає стан файлу index.txt до того стану який
-              він мав у попередньому коміті;
-          </div>
-        </div>
+                <div class="card">
+                    <div class="card-block">
+                        <b class="codeColor">git add filename.html</b> - додає до індексування (відстеження змін) файл.
+                        filename.html-імя вашого файлу;
+                    </div>
+                </div>
 
-      <div class="card">
-          <div class="card-block">
-              <b class="codeColor">git revert HEAD --no-edit</b> - вертає (попередньо видаливши наш останній коміт) нас на
-              попередній комміт.Замість HEAD можна писати хеш якогось комміту.Видалений комміт залишається в логах;
-          </div>
-      </div>
+                <div class="card">
+                    <div class="card-block">
+                        <b class="codeColor">git add .</b> - додає до індексування(відстеження змін) всі файли що;
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-block">
+                        <b class="codeColor">git commit -m "your text info"</b> - виконує commit файлів на пк і додає
+                        текст підказку/пояснення (text info) про те що коммітиться;
+                    </div>
+                </div>
+            </div>
+<a name="WorkWithGitLogs"></a>
+    <h2 class="headerInPage">Work with GIT logs</h2>
+        <div class="container">
+
+              <div class="card">
+                <div class="card-block">
+                    <b class="codeColor">git log</b> - показує історію коммітів.Щоб вийти із історії необхідно натиснути CTRL+z;
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-block">
+                    <b class="codeColor">git log -- pretty=online</b> - виводить в одну строку список комітів;
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-block">
+                    <b class="codeColor">git log -- pretty=online --max-count=3</b> - показує log (історію) останніх
+                    троьх коммітів.Щоб вийти із історії необхідно натиснути CTRL+z;
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-block">
+                    <b class="codeColor">git log -- pretty=online --all</b> - показує log (історію) всіх коммітів.
+                    Щоб вийти із історії необхідно натиснути CTRL+z;
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-block">
+                    <b class="codeColor">git log -- pretty=online --author="name"</b> - показує log (історію) всіх
+                    коммітів по конкретному імені автора.Щоб вийти із історії необхідно натиснути CTRL+z;
+                </div>
+              </div>
+
+             <div class="card">
+                <div class="card-block">
+                    <b class="codeColor">git log -- pretty=format:"%h - %s : %ad [ %an ]" --date=short</b> - виведе інфу
+                    із коротким hesh по комітах,коментами,датою та автором;
+                </div>
             </div>
 
+        </div>
+<a name="RecoveryAndReturnInGIT"></a>
+    <h2 class="headerInPage">Recovery and return in GIT</h2>
+        <div class="container">
 
+            <div class="card">
+                <div class="card-block">
+                    <b class="codeColor">git checkout heshNumber</b> - перекине нас на коміт якому відповідає номер хеша
+                    (heshnumber).Номер хеша можна взнати чезе git log,така команда використовується якщо треба вернутись
+                    на якийсь попередній коміт при дебагінгу коду тощо;
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-block">
+                    <b class="codeColor">git checkout index.html</b> - даною командою ми вертаємо файл index.html до
+                    стану в якому він був у попередньому комміті;
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-block">
+                    <b class="codeColor">git reset</b> - команда яка вертає стан файлів,гілок тощо до того стану який ми
+                    хочемо;
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-block">
+                    <b class="codeColor">git reset HEAD text.txt</b> - команда яка вертає стан index.txt до попереднього
+                    стану,який у нього був перед git add;
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-block">
+                    <b class="codeColor">git reset heshNumber text.txt</b> - команда яка вертає стан файлу index.txt до
+                    того стану який він мав у попередньому коміті;
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-block">
+                    <b class="codeColor">git revert HEAD --no-edit</b> - вертає (попередньо видаливши наш останній коміт)
+                    нас на попередній комміт.Замість HEAD можна писати хеш якогось комміту.Видалений комміт залишається
+                    в логах;
+                </div>
+            </div>
+
+        </div>
 <a name="GitBranch"></a>
     <h2 class="headerInPage">Work with branches in GIT</h2>
         <div class="container">
@@ -309,8 +334,7 @@
             </div>
         </div>
 
-
-  </div>
+    </div>
   <!-- End of tips-->
             </div>
         </main>
